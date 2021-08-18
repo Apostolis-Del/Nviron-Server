@@ -12,7 +12,7 @@ const pubsub = new PubSub();
 
 require("dotenv").config()
 const stripe = require("stripe")(process.env.STRIPE_SECRET_TEST)
-const PORT = process.env.port || 5000
+const PORT = process.env.PORT || 5000
 
 const app = express();
 
